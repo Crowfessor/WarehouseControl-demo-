@@ -177,7 +177,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "sellinscr";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Satış Ekranı";
+            this.Text = "/";
             this.TransparencyKey = System.Drawing.Color.Indigo;
             this.Load += new System.EventHandler(this.sellinscr_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

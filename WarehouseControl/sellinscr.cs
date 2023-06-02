@@ -19,8 +19,7 @@ namespace WarehouseControl
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MainScreen ms = new MainScreen();
-            ms.Show();
+           
             this.Close();
         }
 

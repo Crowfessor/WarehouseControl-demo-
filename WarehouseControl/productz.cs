@@ -24,9 +24,12 @@ namespace WarehouseControl
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MainScreen ms = new MainScreen();
-            ms.Show();
             this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
