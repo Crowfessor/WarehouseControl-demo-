@@ -16,5 +16,30 @@ namespace WarehouseControl
         {
             InitializeComponent();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            sim SIM = new sim();
+            SIM.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            sellinscr sellinscr = new sellinscr(); 
+            sellinscr.Show();
+                        
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            productz productz = new productz();
+            productz.Show();
+            
+        }
     }
 }

@@ -10,23 +10,23 @@ using System.Windows.Forms;
 
 namespace WarehouseControl
 {
-    public partial class sellinscr : Form
+    public partial class productz : Form
     {
-        public sellinscr()
+        public productz()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void productz_Load(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button2_Click(object sender, EventArgs e)
         {
             MainScreen ms = new MainScreen();
             ms.Show();
             this.Close();
-        }
-
-        private void sellinscr_Load(object sender, EventArgs e)
-        {
-           
         }
     }
 }
