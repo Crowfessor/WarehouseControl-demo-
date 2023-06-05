@@ -24,7 +24,6 @@ namespace WarehouseControl
 
 
 
-        SqlConnection con = new SqlConnection("Data Source=WINZLOW;Initial Catalog=products;Integrated Security=True");
 
 
 
@@ -46,7 +45,8 @@ namespace WarehouseControl
             
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+
+        private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
         }
